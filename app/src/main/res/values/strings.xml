@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Device Info</string>
+    <string name="app_version" translatable="false">1.0</string>
+    <string name="info_pane">Device Info</string>
+    <string name="info_pane_brand">Brand</string>
+    <string name="info_pane_manufacturer">Manufacturer</string>
+    <string name="info_pane_model">Model</string>
+    <string name="info_pane_device">Device Name</string>
+    <string name="info_pane_product">Product Name</string>
+    <string name="info_pane_hardware">Hardware Name</string>
+    <string name="info_pane_sensors">Sensors</string>
+    <string name="sdk_pane">Android SDK Info</string>
+    <string name="sdk_pane_release_version">Android Version</string>
+    <string name="sdk_pane_release_name">Version Name</string>
+    <string name="sdk_pane_sdk">SDK Version</string>
+    <string name="sdk_pane_build_string">Build ID</string>
+    <string name="menu_about_item">About</string>
+    <string name="about_app_version">App Version</string>
+    <string name="about_website_button">Exploptimist Apps Website</string>
+    <string name="about_gps_button">Google Play Store Profile</string>
+    <string name="about_author_name" translatable="false">David Rei</string>
+    <string name="about_author_name_label">Author</string>
+    <string name="website_action_error_message">Unable to handle action</string>
+    <string name="google_play_action_error_message">Error while opening Google Play Store</string>
+
+</resources>
