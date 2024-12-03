@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Infos Mon Appareil</string>
+    <string name="app_name">Mes Infos Système &amp;  Appareil</string>
     <string name="info_pane">Infos appareil</string>
     <string name="info_pane_brand">Marque</string>
     <string name="info_pane_manufacturer">Constructeur</string>
@@ -15,10 +15,12 @@
     <string name="sdk_pane_build_string">Numéro de build</string>
     <string name="info_pane_device">Nom Appareil</string>
     <string name="menu_about_item">A propos</string>
+    <string name="menu_share_item">Partager</string>
     <string name="about_app_version">Version de l\'application</string>
     <string name="about_website_button">Site Web Exploptimist Apps</string>
     <string name="about_gps_button">Profil Google Play Store</string>
     <string name="about_author_name_label">Auteur</string>
+    <string name="about_contact_email_label">Contact</string>
     <string name="website_action_error_message">Impossible de gérer l\'action</string>
     <string name="google_play_action_error_message">Erreur en essayant d\'ouvrir le Google Play Store</string>
 </resources>

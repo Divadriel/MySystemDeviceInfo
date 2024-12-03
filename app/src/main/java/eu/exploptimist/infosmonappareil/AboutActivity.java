@@ -34,7 +34,7 @@ public class AboutActivity extends AppCompatActivity {
 
         // actions
         websiteButton.setOnClickListener(view -> {
-            Uri webpage = Uri.parse("https://apps.exploptimist.eu");
+            Uri webpage = Uri.parse("https://apps.exploptimist.eu/mydevicesysteminfo/");
             Intent webIntent = new Intent(Intent.ACTION_VIEW, webpage);
             try {
                 startActivity(webIntent);

@@ -2,15 +2,15 @@
     <!-- Base application theme. -->
     <style name="Theme.InfosMonAppareil" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#A5D6A7</item>
-        <item name="colorPrimaryVariant">#66BB6A</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/light_orange</item>
+        <item name="colorPrimaryVariant">@color/dark_orange</item>
+        <item name="colorOnPrimary">@color/dark_grey</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#FFAB91</item>
-        <item name="colorSecondaryVariant">#FF7043</item>
+        <item name="colorSecondary">@color/light_brown</item>
+        <item name="colorSecondaryVariant">@color/brown</item>
         <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">#4CAF50</item>
+        <item name="android:statusBarColor">@color/dark_brown</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>

@@ -18,6 +18,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    String allInfos;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,12 +70,32 @@ public class MainActivity extends AppCompatActivity {
         productValue.setText(Build.PRODUCT);
         hardwareValue.setText(Build.HARDWARE);
         sensorsValue.setText(allSensors.toString());
+
         sdkValue.setText(String.valueOf(Build.VERSION.SDK_INT));
         releaseVersionValue.setText(Build.VERSION.RELEASE);
         releaseNameValue.setText(codeName);
         buildStringValue.setText(Build.DISPLAY);
 
-        //TODO: add button to export / share this data. see https://developer.android.com/training/basics/intents/sending#email-with-attachment
+        // Building all infos string to be able to share it
+        StringBuilder allInfosBuilder = new StringBuilder();
+        allInfosBuilder
+                .append(getString(R.string.about_author_name_label)).append("\t").append(getString(R.string.about_author_name)).append("\n")
+                .append(getString(R.string.about_contact_email_label)).append("\t").append(getString(R.string.about_contact_email)).append("\n")
+                .append(getString(R.string.about_app_version)).append("\t").append(getString(R.string.app_version)).append("\n\n")
+                .append(getString(R.string.info_pane)).append("\n")
+                .append(getString(R.string.info_pane_brand)).append("\t").append(Build.BRAND).append("\n")
+                .append(getString(R.string.info_pane_manufacturer)).append("\t").append(Build.MANUFACTURER).append("\n")
+                .append(getString(R.string.info_pane_model)).append("\t").append(Build.MODEL).append("\n")
+                .append(getString(R.string.info_pane_device)).append("\t").append(Build.DEVICE).append("\n")
+                .append(getString(R.string.info_pane_product)).append("\t").append(Build.PRODUCT).append("\n")
+                .append(getString(R.string.info_pane_hardware)).append("\t").append(Build.HARDWARE).append("\n")
+                .append(getString(R.string.info_pane_sensors)).append("\n").append(allSensors).append("\n\n")
+                .append(getString(R.string.sdk_pane)).append("\n")
+                .append(getString(R.string.sdk_pane_release_version)).append("\t").append(Build.VERSION.RELEASE).append("\n")
+                .append(getString(R.string.sdk_pane_sdk)).append("\t").append(Build.VERSION.SDK_INT).append("\n")
+                .append(getString(R.string.sdk_pane_release_name)).append("\t").append(codeName).append("\n")
+                .append(getString(R.string.sdk_pane_build_string)).append("\t").append(Build.DISPLAY).append("\n");
+        allInfos = allInfosBuilder.toString();
     }
 
     @Override
@@ -88,6 +110,16 @@ public class MainActivity extends AppCompatActivity {
             // launch about activity
             Intent intent = new Intent(this, AboutActivity.class);
             startActivity(intent);
+            return true;
+        }
+        if(item.getItemId() == R.id.menu_share){
+            // share the content of this tab
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, allInfos);
+            sendIntent.setType("text/plain");
+            Intent shareIntent = Intent.createChooser(sendIntent, null);
+            startActivity(shareIntent);
             return true;
         }
         return super.onOptionsItemSelected(item);

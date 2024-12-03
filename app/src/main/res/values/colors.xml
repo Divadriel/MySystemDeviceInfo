@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme colors -->
+    <color name="dark_grey">#FF202326</color>
+    <color name="light_orange">#FFD99255</color>
+    <color name="dark_orange">#FFD24D35</color>
+    <color name="light_brown">#FFD9BCA3</color>
+    <color name="brown">#FFA6836F</color>
+    <color name="dark_brown">#FF59473C</color>
 </resources>
