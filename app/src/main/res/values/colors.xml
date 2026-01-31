@@ -8,11 +8,24 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Theme colors -->
-    <color name="dark_grey">#FF202326</color>
-    <color name="light_orange">#FFD99255</color>
-    <color name="dark_orange">#FFD24D35</color>
-    <color name="light_brown">#FFD9BCA3</color>
-    <color name="brown">#FFA6836F</color>
-    <color name="dark_brown">#FF59473C</color>
+    <!-- Winter colors -->
+    <color name="dark_blue_grey">#20282C</color>
+    <color name="lightest_electric_blue">#D3F0FF</color>
+    <color name="light_electric_blue">#FF008CFF</color>
+    <color name="dark_electric_blue">#00467E</color>
+    <!-- Spring colors -->
+    <color name="dark_green_grey">#1A281C</color>
+    <color name="lightest_green">#D9FFD7</color>
+    <color name="light_green">#0CAB00</color>
+    <color name="dark_green">#064000</color>
+    <!-- Summer colors -->
+    <color name="dark_yellow_grey">#28251A</color>
+    <color name="lightest_yellow">#FAE3B0</color>
+    <color name="light_yellow">#f2bf00</color>
+    <color name="dark_yellow">#594700</color>
+    <!-- Autumn colors -->
+    <color name="dark_orange_grey">#281F1A</color>
+    <color name="lightest_orange">#FDD4C4</color>
+    <color name="light_orange">#f24600</color>
+    <color name="dark_orange">#491600</color>
 </resources>

@@ -1,16 +1,33 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.InfosMonAppareil" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/light_orange</item>
+        <!-- Winter theme -->
+        <!-- Change line 8 on activity_main.xml and activity_about.xml to android:background="@color/lightest_electric_blue" -->
+        <!-- Change drawable tint color (info_24.xml and share_24.xml) to @color/dark_blue_grey -->
+        <item name="colorPrimary">@color/light_electric_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_electric_blue</item>
+        <item name="colorOnPrimary">@color/dark_blue_grey</item>
+
+        <!-- Spring theme -->
+        <!-- Change line 8 on activity_main.xml and activity_about.xml to android:background="@color/lightest_green" -->
+        <!-- Change drawable tint color (info_24.xml and share_24.xml) to @color/dark_green_grey -->
+        <!--<item name="colorPrimary">@color/light_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/dark_green_grey</item>-->
+
+        <!-- Summer theme -->
+        <!-- Change line 8 on activity_main.xml and activity_about.xml to android:background="@color/lightest_yellow" -->
+        <!-- Change drawable tint color (info_24.xml and share_24.xml) to @color/dark_yellow_grey -->
+        <!--<item name="colorPrimary">@color/light_yellow</item>
+        <item name="colorPrimaryVariant">@color/dark_yellow</item>
+        <item name="colorOnPrimary">@color/dark_yellow_grey</item>-->
+
+        <!-- Autumn theme -->
+        <!-- Change line 8 on activity_main.xml and activity_about.xml to android:background="@color/lightest_orange" -->
+        <!-- Change drawable tint color (info_24.xml and share_24.xml) to @color/dark_orange_grey -->
+        <!--<item name="colorPrimary">@color/light_orange</item>
         <item name="colorPrimaryVariant">@color/dark_orange</item>
-        <item name="colorOnPrimary">@color/dark_grey</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/light_brown</item>
-        <item name="colorSecondaryVariant">@color/brown</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/dark_brown</item>
-        <!-- Customize your theme here. -->
+        <item name="colorOnPrimary">@color/dark_orange_grey</item>-->
+
     </style>
 </resources>

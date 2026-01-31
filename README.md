@@ -8,8 +8,8 @@ The application is published on Google Play for Android devices, and translated 
 
 # Specifications
 
-- Version: 2.1
-- Last published update: Dec. 03 2024
+- Version: 2.4
+- Last published update: Jan. 31 2026
 - Requires: Android 7.0 and up
 - Size: approx. 6 MB
 - Link: https://play.google.com/store/apps/details?id=eu.exploptimist.infosmonappareil&hl=en&pli=1
