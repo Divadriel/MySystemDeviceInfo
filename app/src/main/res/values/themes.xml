@@ -4,16 +4,16 @@
         <!-- Winter theme -->
         <!-- Change line 8 on activity_main.xml and activity_about.xml to android:background="@color/lightest_electric_blue" -->
         <!-- Change drawable tint color (info_24.xml and share_24.xml) to @color/dark_blue_grey -->
-        <item name="colorPrimary">@color/light_electric_blue</item>
+        <!--<item name="colorPrimary">@color/light_electric_blue</item>
         <item name="colorPrimaryVariant">@color/dark_electric_blue</item>
-        <item name="colorOnPrimary">@color/dark_blue_grey</item>
+        <item name="colorOnPrimary">@color/dark_blue_grey</item>-->
 
         <!-- Spring theme -->
         <!-- Change line 8 on activity_main.xml and activity_about.xml to android:background="@color/lightest_green" -->
         <!-- Change drawable tint color (info_24.xml and share_24.xml) to @color/dark_green_grey -->
-        <!--<item name="colorPrimary">@color/light_green</item>
+        <item name="colorPrimary">@color/light_green</item>
         <item name="colorPrimaryVariant">@color/dark_green</item>
-        <item name="colorOnPrimary">@color/dark_green_grey</item>-->
+        <item name="colorOnPrimary">@color/dark_green_grey</item>
 
         <!-- Summer theme -->
         <!-- Change line 8 on activity_main.xml and activity_about.xml to android:background="@color/lightest_yellow" -->
